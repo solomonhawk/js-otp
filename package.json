@@ -1,7 +1,7 @@
 {
-  "name": "node-otp",
-  "version": "0.0.1",
-  "description": "A JS implementation of OTP (one-time pad crypto)",
+  "name": "basic-otp",
+  "version": "0.1.0",
+  "description": "A basic JS implementation of OTP (one-time pad crypto)",
   "engines": {
     "node": ">=0.10"
   },
@@ -22,11 +22,9 @@
     "crypto"
   ],
   "author": "Solomon Hawk",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/solomonhawk/otp/issues"
   },
-  "homepage": "https://github.com/solomonhawk/otp",
-  "dependencies": {
-  }
+  "homepage": "https://github.com/solomonhawk/otp"
 }
