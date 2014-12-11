@@ -1,0 +1,33 @@
+{
+  "name": "node-otp",
+  "version": "0.0.1",
+  "description": "A JS implementation of OTP (one-time pad crypto)",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bin": {
+    "encrypt": "encrypt",
+    "decrypt": "decrypt"
+  },
+  "scripts": {
+    "test": "ruby otp_test.rb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solomonhawk/otp.git"
+  },
+  "keywords": [
+    "javascript",
+    "otp",
+    "crypto"
+  ],
+  "author": "Solomon Hawk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solomonhawk/otp/issues"
+  },
+  "homepage": "https://github.com/solomonhawk/otp",
+  "dependencies": {
+    "commander": "^2.5.0"
+  }
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+var config  = require('./package.json');
+var program = require('commander');
+var decrypt = require('./lib/decrypt');
+
+program
+  .version(config.version)
+  .parse(process.argv);
+
+if(!program.args.length) {
+  program.help();
+} else {
+  var key = program.args[0];
+
+  process.stdin.resume();
+  process.stdin.setEncoding('utf8');
+
+  process.stdin.on('data', function(data) {
+    process.stdout.write(decrypt(data, key));
+  });
+}
+
