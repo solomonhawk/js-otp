@@ -28,6 +28,5 @@
   },
   "homepage": "https://github.com/solomonhawk/otp",
   "dependencies": {
-    "commander": "^2.5.0"
   }
 }
